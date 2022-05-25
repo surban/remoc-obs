@@ -5,8 +5,17 @@
     html_logo_url = "https://raw.githubusercontent.com/ENQT-GmbH/remoc/master/.misc/Remoc.png",
     html_favicon_url = "https://raw.githubusercontent.com/ENQT-GmbH/remoc/master/.misc/Remoc.png"
 )]
+#![deprecated = "remoc-obs has been integrated into remoc as module remoc::robs. Please update your references."]
 
 //! Remotely observable collections.
+//!
+//! **This crate is deprecated:** Remoc-obs has been integrated into [Remoc] as of version 0.10.
+//! Please update your references to use the [`remoc::robs`] module.
+//! Development continues as part of the [Remoc repository].
+//!
+//! [Remoc]: https://crates.io/crates/remoc
+//! [Remoc repository]: https://github.com/ENQT-GmbH/remoc
+//! [`remoc::robs`]: https://docs.rs/remoc/latest/remoc/robs/index.html
 //!
 //! This crate provides collections that emit an event for each change.
 //! This event stream can be sent to a local or remote endpoint (using [remoc]),

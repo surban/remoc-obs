@@ -1,5 +1,8 @@
 # Remoc-obs — remotely observable collection types
 
+## **This crate is deprecated:** Remoc-obs has been integrated into [Remoc] as of version 0.10. Please update your references to use the [`remoc::robs`] module. Development continues as part of the [Remoc repository]. 
+
+## Overview
 This crate provides collections that emit an event for each change.
 This event stream can be sent to a local or remote endpoint (using [Remoc]),
 where it can be either processed event-wise or a mirrored collection can
@@ -12,6 +15,8 @@ The following observable types are implemented:
   * hash set
 
 [Remoc]: https://crates.io/crates/remoc
+[Remoc repository]: https://github.com/ENQT-GmbH/remoc
+[`remoc::robs`]: https://docs.rs/remoc/latest/remoc/robs/index.html
 [![crates.io page](https://img.shields.io/crates/v/remoc-obs)](https://crates.io/crates/remoc-obs)
 [![docs.rs page](https://docs.rs/remoc-obs/badge.svg)](https://docs.rs/remoc-obs)
 [![Apache 2 license](https://img.shields.io/crates/l/remoc-obs)](https://raw.githubusercontent.com/surban/remoc-obs/master/LICENSE)
